@@ -1,0 +1,106 @@
+.item1 {
+    background-color: rgb(10, 170, 200);
+}
+.item2 {
+    background-color: rgb(20, 180, 190);
+}
+.item3{
+    background-color: rgb(30, 190, 180);
+}
+.item4{
+    background-color: rgb(40, 200, 170);
+}
+
+.container1{
+    justify-content: space-around;
+}
+.container2{
+    justify-content: space-between;
+}
+.container3{
+    justify-content: space-evenly;
+}
+.container4{
+    /* flex-direction: stretch; */
+    /* justify-content: space-evenly; */
+    /* height: fit-content; */
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.item5 {
+    background-color: rgb(250, 200, 80);
+    align-self: flex-end;
+    border-radius: 50%;
+}
+.item6 {
+    background-color: rgb(230, 200, 80);
+    align-self: center;
+    border-radius: 50%;
+}
+.item7 {
+    background-color: rgb(210, 200, 80);
+    align-self: flex-start;
+    border-radius: 50%;
+}
+.item8 {
+    background-color: rgb(190, 200, 80);
+    align-self:center;
+    border-radius: 50%;
+}
+
+.container5{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.item9 {
+    margin: 5px 20px;
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+    background-color: rgb(250, 20, 0);
+}
+.item10 {
+    margin: 5px 20px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+    background-color: rgb(230, 20, 0);
+}
+.item11{
+    margin: 5px 20px;
+    -webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+    background-color: rgb(210, 20, 0);
+}
+.item12{
+    margin: 5px 20px;
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+    background-color: rgb(190, 20, 0);
+}
+
+.container6{
+    /* justify-content: space-evenly; */
+}
+
+.item13 {
+    background-color: rgb(120, 20, 190);
+    flex-grow: 2;
+}
+.item14 {   
+    background-color: rgb(140, 20, 190);
+    flex-grow: 1;
+}
+.item15{
+    background-color: rgb(160, 20, 190);
+    flex-grow: 3;
+}
+.item16{
+    background-color: rgb(180, 20, 190);
+    flex-grow: 5;
+}
