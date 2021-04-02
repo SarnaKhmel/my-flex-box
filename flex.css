@@ -86,6 +86,7 @@
 
 .container6{
     /* justify-content: space-evenly; */
+    display: flex;
 }
 
 .item13 {
@@ -103,4 +104,30 @@
 .item16{
     background-color: rgb(180, 20, 190);
     flex-grow: 5;
+}
+
+.container7 {
+    height: 250px;
+    justify-content: space-between;
+}
+
+.item17 {
+    background-color: rgb(110, 170, 200);
+    align-self: center;
+    order: 3;
+    /* align-self: center; */
+}
+.item18 {
+    background-color: rgb(120, 180, 190);
+    align-self: flex-end;
+    order: 4;
+}
+.item19{
+    background-color: rgb(130, 190, 180);
+    align-self: center;
+    order: 1;
+}
+.item20{
+    background-color: rgb(140, 200, 170);
+    order: 2;
 }
